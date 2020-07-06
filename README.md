@@ -2,17 +2,22 @@
 
 Bike sharing demand
 ---------------------------
-The goal of this project is to predict bike sharing demand at any given hour. For that we build a simple machine learning model based on ordinary least squares regression. Find more information on the Kaggle competition and the data provided [here](https://www.kaggle.com/c/bike-sharing-demand/overview).
+This project predicts bike sharing demand at any given hour. I build a simple machine learning model based on ordinary least squares regression to gain an understanding of the virtues and limitations of applying linear regression to a non-linear problem.
+
+Find more information on the Kaggle competition and the data provided [here](https://www.kaggle.com/c/bike-sharing-demand/overview).
 
 View the project in the following order:
 1. data_exploration.ipynb
-  - follow the insights extracted through data exploration
+    - follow the insights extracted through data exploration
 2. ols_linear_regression.ipynb
-  - follow the steps taken to build and improve the model
+    - follow the steps taken to build and improve the model
 3. ols_linear_regression_assumptions.ipynb
-  - verify linear regression assumptions
+    - verify linear regression assumptions
 
-View the analyses directly by clicking the jupyter notebook file in the GitHub repository. GitHub renders the files for immediate viewing. The following installation steps are only necessary if the code is to be used.
+View the analyses directly by clicking the jupyter notebook file in the GitHub repository.
+  - GitHub renders the files for immediate viewing.
+  - It might take a few seconds to render and/or you might have to reload if rendering is unsuccessful.
+  - The following installation steps are only necessary if the code is to be executed.
 
 Installation
 ---------------------------
