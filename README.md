@@ -2,7 +2,9 @@
 
 Bike sharing demand
 ---------------------------
-This project predicts bike sharing demand at any given hour. I build a simple machine learning model based on ordinary least squares regression to gain an understanding of the virtues and limitations of applying linear regression to a non-linear problem.
+This project predicts bike sharing demand at any given hour. I build a simple machine learning model based on ordinary least squares regression to gain an understanding of the virtues and limitations of applying linear regression to a non-linear problem. In particular, I show:
+  - how an understanding of non-linear interactions among features can be intuitive
+  - how modelling such key interactions can greatly improve forecast skill
 
 Find more information on the Kaggle competition and the data provided [here](https://www.kaggle.com/c/bike-sharing-demand/overview).
 
