@@ -6,11 +6,11 @@ This project predicts bike sharing demand at any given hour. I build a simple ma
   - how an understanding of non-linear interactions among features can be intuitive
   - how modelling such key interactions can greatly improve forecast skill.
 
-Scroll down for some key takeaways.
+**Scroll down for some key takeaways.**
 
 Find more information on the Kaggle competition and the data provided [here](https://www.kaggle.com/c/bike-sharing-demand/overview).
 
-View the project in the following order:
+**View the project in the following order:**
 1. data_exploration.ipynb
     - follow the insights extracted through data exploration
 2. ols_linear_regression.ipynb
@@ -54,7 +54,7 @@ Key takeaways
 -----------------------
 
 - Bike rental count is largely determined by time features such as hour, month and year
-- __Figure 1__ shows the importance of the hour of day in particular in combination with the binary feature differentiating between working days and weekend days/holidays
+- __Figure 1__ plots histograms of the mean bike count per hour and type of day (non-/ working day). It shows the importance of the hour of day in particular in combination with the binary feature differentiating between working days and weekend days/holidays
 - __Figure 2__ plots the predictions vs. actuals for a Monday using two different models
   - **Model 1** is a simple baseline model including time and weather features and no interaction terms
   - **Model 2** has one additional feature compared to Model 1: an interaction term between the binary features working day and 8th hour of the day
